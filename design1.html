@@ -1,0 +1,905 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    #one{
+        height: 100vh;
+        border: 2px solid black;
+    }
+    #o1{
+        height: 10%;
+        /* border: 2px solid red; */
+        font-size: 22px;
+        padding-top: 20px;
+        padding-left: 80px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-weight: 800;
+        background-color: yellow;
+    }
+    #o2{
+        height: 90%;
+        /* border: 2px solid green; */
+        background-image: url("https://images.pexels.com/photos/1190299/pexels-photo-1190299.jpeg");
+        background-size: cover;
+        background-position: center;
+    }
+    #o3{
+        height: 20%;
+        font-size: 30px;
+        color: white;
+        /* border: 2px solid black; */
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-weight: 700;
+        width: 20%;
+        padding-left: 50px;
+        padding-top: 25px;
+    }
+    #p1{
+        height: 20%;
+        /* border: 2px solid black; */
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        margin-top: -105px;
+        margin-left: 500px;
+
+    }
+    a{
+        text-decoration: none;
+        color: white;
+        font-size: 22px;
+        padding-left: 60px;
+
+    }
+    #btn{
+        font-size: 20px;
+        margin-left: 60px;
+        background-color: rgb(195, 129, 7);
+        border-radius: 40px;
+        padding: 10px 15px;
+        color: white;
+        border: 2px solid rgb(231, 156, 18);
+    }
+    #btn:hover{
+        background-color: rgb(75, 97, 97);
+        color: black;
+        border: 2px solid wheat;
+        
+    }
+    .o4{
+        height: 10%;
+        width: 30%;
+        /* border: 2px solid black; */
+        text-align: center;
+        margin-left: 550px;
+        font-size: 24px;
+        color: white;
+        font-weight: 500;
+    }
+    .o5{
+        height: 20%;
+        width: 60%;
+        /* border: 2px solid black; */
+        margin-left: 450px;
+        font-size: 90px;
+        color: white;
+        font-weight: 700;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        margin-top: -35px;
+
+    }
+     #btn2{
+        font-size: 20px;
+        margin-left: 700px;
+        background-color: rgb(195, 129, 7);
+        border-radius: 40px;
+        padding: 10px 15px;
+        color: white;
+        border: 2px solid rgb(231, 156, 18);
+        margin-top: 8px;
+     }
+     .o6{
+       height: 10%;
+       width: 20%; 
+        /* border: 2px solid rgb(241, 229, 229); */
+        margin-top: 180px;
+        margin-left: 50px;
+
+     }
+     #pic1{
+        height: 100%;
+        width: 20%;
+        /* border: 2px solid rgb(241, 229, 229); */
+        background-image: url("https://i.pinimg.com/736x/2e/06/66/2e06663a4d4ee54475b5d15598cc5f2a.jpg");
+        background-size: cover;
+       
+
+     }
+     #o7{
+        height: 40%;
+        /* border: 2px solid rgb(241, 229, 229); */
+        margin-top: -50px;
+        font-size: 22px;
+        font-weight: 600;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        color: white;
+        margin-left: 60px;
+
+        
+     }
+      .o8{
+       height: 10%;
+       width: 20%; 
+        /* border: 2px solid rgb(241, 229, 229); */
+        margin-left: 650px;
+        margin-top: -67px;
+
+     }
+      #pic2{
+        height: 100%;
+        width: 30%;
+        /* border: 2px solid rgb(241, 229, 229); */
+        background-image: url("https://www.shutterstock.com/shutterstock/videos/1025179811/thumb/1.jpg?ip=x480");
+        background-size: cover;
+        margin-left: -30px;
+       
+
+     }
+    
+     #o9{
+        height: 10%;
+        width: 20%;
+        /* border: 2px solid red; */
+        margin-top: -70px;
+        margin-left: 80%;
+
+
+     }
+     #fb{
+        height: 40%;
+        width: 10%;
+        /* border: 2px solid red; */
+        margin-left: 70px;
+        margin-top: 40px;
+        border-radius: 50px;
+
+     }
+     
+     #fb{
+        height: 40%;
+        width: 10%;
+        /* border: 2px solid red; */
+        margin-left: 85px;
+        margin-top: 40px;
+        border-radius: 50px;
+        float: left;
+        background-size: cover;
+        background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXEsxOxG9FeYib8oAX-3FIeJGSuxhnQdVD4A&s");
+        background-size: cover;
+        background-position: center;
+
+     }
+     
+     #twitter{
+        height: 40%;
+        width: 10%;
+        /* border: 2px solid red; */
+        margin-top: 40px;
+        border-radius: 50px;
+        margin-left: 20px;
+        float: left;
+        background-image: url("https://i.pinimg.com/736x/09/66/c9/0966c907c72902a3b328efe06fcb5e06.jpg");
+        background-position: center;
+        background-size: cover;
+
+
+
+     }
+     #insta{
+        height: 40%;
+        width: 10%;
+        /* border: 2px solid red; */
+        border-radius: 50px;
+        float: right;
+        background-image: url("https://i.pinimg.com/736x/4f/af/36/4faf36c2307bde44d3a08102082ba1c0.jpg");
+        background-size: cover;
+        background-position: center;
+        margin-top: 40px;
+        margin-right: 80px;
+
+
+     }
+      #two{
+        height: 100vh;
+        /* border: 2px solid red; */
+        background-color: orange;
+        /* opacity: 0.7; */
+     }
+     #t1{
+        height: 100%;
+        background-color: orange;
+         background-image: url("https://images.pexels.com/photos/1763075/pexels-photo-1763075.jpeg");
+          background-size: cover;
+        background-position: center;
+     }
+    
+     #t3{
+        height: 10%;
+        width: 30%;
+        /* border: 2px solid white; */
+        padding-top: 50px;
+        margin-left: 60px;
+        margin-top: -40%;
+        font-size: 55px;
+         color: wheat;
+     }
+     #t4{
+        margin-left: 60px;
+        font-size: 18px;
+        margin-top: 10px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        color: white;
+
+     }
+     #t5{
+       font-size: 30px;
+       color: wheat;
+       margin-top: 20px;
+        margin-left: 60px;
+
+     }
+     #t6{
+        height: 60%;
+        width:43%;
+        border: 2px solid rgb(83, 40, 40);
+        margin-top: -360px;
+        margin-left: 800px;
+        border-radius: 10px;
+        background-image: url("https://images.pexels.com/photos/8531226/pexels-photo-8531226.jpeg");
+        background-position: center;
+        background-size: cover;
+     }
+     #t7{
+        height: 20%;
+        width: 90%;
+        border: 2px solid white;
+        margin-top: 330px;
+        margin-left: 30px;
+        border-radius: 20px;
+        background-color: aliceblue;
+        opacity: 0.7;
+     }
+     #t8{
+        height: 60%;
+        width: 10%;
+        /* border: 2px solid black; */
+        border-radius: 50px;
+        margin-top: 15px;
+        margin-left: 20px;
+        background-image: url("https://i.pinimg.com/736x/eb/26/db/eb26db4e1e95322eca0e636d5187cc31.jpg");
+        background-size: cover;
+        background-position: center;
+     }
+     #t9{
+        font-size: 30px;
+        font-weight: 900;
+        margin-left: 100px;
+        margin-top: -48px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+     }
+     #t10{
+        font-size: 15px;
+        color: grey;
+        font-weight: 400;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+     }
+     #three{
+        height: 100vh;
+        /* border: 2px solid black; */
+     }
+     h1{
+        font-weight: 900;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        text-align: center;
+        margin-top: 30px;
+        font-size: 32px;
+     }
+     #m1{
+        height: 85%;
+        width:25%;
+        /* border: 2px solid black; */
+        float: left;
+        margin-left: 350px;
+        margin-top: 10px;
+        border-radius: 20px;
+        background-image: url("https://images.pexels.com/photos/7149145/pexels-photo-7149145.jpeg");
+        background-size: cover;
+     }
+     #m2{
+        height:40% ;
+        /* border: 2px solid black; */
+        width: 35%;
+        float: right;
+        margin-top: 10px;
+        border-radius: 20px;
+        margin-right: 230px;
+        background-image: url("https://images.pexels.com/photos/878998/pexels-photo-878998.jpeg");
+        background-size: cover;
+        background-position: center;
+     }
+     
+     #m3{
+        height:40% ;
+        /* border: 2px solid black; */
+        width: 35%;
+        float: right;
+        margin-top: 10px;
+        border-radius: 20px;
+        margin-right: 230px;
+         background-size: cover;
+        background-position: center;
+        background-image: url("https://images.pexels.com/photos/7502184/pexels-photo-7502184.jpeg");
+     }
+     #four{
+        height: 100vh;
+        /* border: 2px solid black; */
+        background-image: url("https://images.pexels.com/photos/1190298/pexels-photo-1190298.jpeg");
+        background-size: cover;
+        background-position: center ;
+     }
+     #f1{
+      height: 80%;
+      /* border: 2px solid white; */
+      margin: 30px;
+      border-radius: 10px;
+     }
+     #f2{
+        height: 12%;
+        /* border: 2px solid rgb(226, 118, 10); */
+      background-color: rgb(226, 118, 10);
+      border-radius: 10px;
+
+
+     }
+     #f3{
+      height: 100%;
+        /* border: 2px solid orange; */
+        width: 16%;
+       float: left;
+       font-size: 26px;
+       padding: 20px;
+       padding-left: 50px;
+       color: white;
+       font-weight: 800;
+       text-align: center;
+
+     }
+     #f4{
+      height: 100%;
+        /* border: 2px solid orange; */
+        width: 28%;
+       float: left;
+        font-size: 26px;
+       padding: 20px;
+       padding-left: 50px;
+       color: white;
+       font-weight: 800;
+       text-align: center;
+
+     }
+     #f5{
+      height: 100%;
+        /* border: 2px solid orange; */
+
+        width: 28%;
+       float: left;
+        font-size: 26px;
+       padding: 20px;
+       padding-left: 50px;
+       color: white;
+       font-weight: 800;
+       text-align: center;
+
+     }
+     #f6{
+      height: 100%;
+        /* border: 2px solid orange; */
+        width: 28%;
+       float: left;
+        font-size: 26px;
+       padding: 20px;
+       padding-left: 50px;
+       color: white;
+       font-weight: 800;
+       text-align: center;
+     }
+     #f7{
+      height: 88%;
+        /* border: 2px solid orange; */
+        width: 16%;
+
+     }
+     #f8{
+      height: 33.5%;
+        /* border: 2px solid orange; */
+        font-size: 26px;
+       padding: 20px;
+       padding-left: 50px;
+       color: white;
+       font-weight: 800;
+       text-align: center;
+       background-color: rgb(35, 22, 22);
+
+     }
+     #f9{
+      height: 30%;
+      width: 28%;
+        /* border: 2px solid orange; */
+        margin-top: -514px;
+        margin-left: 230.5px;
+        float: left;
+        background-image: url("https://images.pexels.com/photos/724259/pexels-photo-724259.jpeg");
+        background-size: cover;
+        background-position: 1px;
+       
+     }
+     #f10{
+        height: 30%;
+      width: 28%;
+        /* border: 2px solid orange; */
+        margin-top: -514px;
+        float: left;
+        margin-left: 639px;
+        background-color: rgb(248, 248, 237);
+     }
+    
+     #f11{
+        height: 30%;
+      width: 28%;
+        /* border: 2px solid orange; */
+        margin-top: -514px;
+        float: left;
+        margin-left: 1046px;
+        background-size: cover;
+        background-position: center;
+        background-image: url("https://images.pexels.com/photos/878998/pexels-photo-878998.jpeg");
+     }
+     #f12{
+      height: 30%;
+      width: 28%;
+        /* border: 2px solid orange; */
+        margin-left: 232.5px;
+        float: left;
+        margin-top: -339px;
+        background-color: rgb(250, 214, 231);
+     }
+     #f13{
+        height: 30%;
+      width: 28%;
+        margin-top: -339px;
+        /* border: 2px solid orange; */
+        float: left;
+        margin-left: 639px;
+       background-color: rgb(35, 22, 22);
+
+        /* background-color: #fff; */
+     }
+     #f14{
+        height: 30%;
+      width: 28%;
+        margin-top: -339px;
+        /* border: 2px solid orange; */
+        float: left;
+        margin-left: 1046px;
+        /* background-color: #fff; */
+        background-color: lightcyan;
+     }
+     #f15{
+      height: 30%;
+      width: 28%;
+        /* border: 2px solid yellowgreen; */
+        margin-top: -170px;
+        float: left;
+        margin-left: 230px;
+        background-image: url("https://images.pexels.com/photos/7269212/pexels-photo-7269212.jpeg");
+        background-size: cover;
+        background-position: center;
+
+     }
+     #f16{
+      height: 30%;
+      width: 28%;
+        /* border: 2px solid yellowgreen; */
+        margin-top: -170px;
+        float: left;
+        margin-left: 0px;
+        background-color: lightgray
+     }
+     #f17{
+      height: 30%;
+      width: 28%;
+        /* border: 2px solid yellowgreen; */
+        margin-top: -170px;
+        float: left;
+        margin-left: 0px;
+       background-color: rgb(35, 22, 22);
+
+     }
+     #para1{
+      font-size: 32px;
+      text-align: center;
+      margin-top: 60px;
+      font-weight: 900;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      color: white;
+     }
+     #para2{
+      text-align: center;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      margin-top: 5px;
+      font-size: 15px;
+      color: white;
+     }
+     #para3{
+      text-align: center;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      margin-top: 10px;
+      font-size: 20px;
+      color: white;
+     }
+     #five{
+      height: 100vh;
+      background-color: rgb(184, 232, 251);
+      border: 2px solid black;
+     }
+     #fi1{
+      height: 60%;
+      border: 4px dotted rgb(50, 2, 2);
+      width: 40%;
+      margin-left: 100px;
+      margin-top: 30px;
+      float: left;
+      border-radius: 10px;
+     }
+     #fi2{
+      height: 60%;
+      border: 4px dotted rgb(46, 3, 3);
+      width: 40%;
+      margin-left: 100px;
+      margin-top: 30px;
+      float: left;
+      border-radius: 10px;
+     }
+     #d1{
+      height: 20%;
+      width: 15%;
+      /* border: 2px solid black; */
+      border-radius: 50px;
+      float: right;
+      margin-right: 15px;
+      margin-top: 15px;
+      background-color: rgb(229, 101, 46);
+     }
+     #d2{
+      font-size: 18px;
+      margin-top: 18px;
+      margin-left: 5px;
+      color: #fff;
+      font-weight: 700;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+     }
+     #d3{
+      font-size: 28px;
+      margin-left: 20px;
+      color: #fff;
+      font-weight: 900;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+     }
+     #d4{
+      font-size: 20px;
+      margin-left: 35px;
+      color: #141414;
+      font-weight: 900;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      margin-top: 45px;
+     }
+     #d5{
+      font-size: 30px;
+      margin-left: 170px;
+      color: #090909;
+      font-weight: 900;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      margin-top: -30px;
+     }
+     #d6{
+      margin-left: 35px;
+     color: grey;
+     font-size: 18px;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      margin-top: 20px;
+
+     }
+     #li1{
+      margin-left: 35px;
+      margin-top: 40px;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+     }
+     #li2{
+      margin-left: 335px;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      margin-top: -40px;
+     }
+     #a15{
+      color: yellow;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      font-weight: 900;
+      font-size: 22px;
+      margin-top: 90px;
+     }
+      #li3{
+      margin-left: 335px;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      margin-top: 20px;
+     }
+     #a16{
+      color: yellow;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      font-weight: 900;
+      font-size: 22px;
+      margin-top: 120px;
+     }
+     #six{
+      height: 100vh;
+      border: 2px solid black;
+     }
+     #s1{
+      height: 10%;
+      width:30%;
+      /* border: 2px solid black; */
+      margin-left: 520px;
+      margin-top: 20px;
+      border-radius: 40px;
+      background-color: rgb(204, 232, 243);
+
+     }
+     #s2{
+      font-size: 24px;
+      margin: 20px;
+      padding: 10px;
+      margin-top: 10px;
+      border-radius: 30px;
+      color: rgb(222, 222, 4);
+      background-color: #fff;
+      border: 1px solid white;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+     }
+     #s3{
+       margin-left: 320px;
+       margin-top: -53px;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      font-weight: 800;
+
+     }
+     #form1{
+      height: 40%;
+      width: 40%;
+      border: 2px solid rgb(221, 217, 217);
+      margin-left: 420px;
+      margin-top: 30px;
+      border-radius: 10px;
+
+     }
+     #input1{
+      height: 15%;
+      width: 45%;
+      margin: 10px;
+      float: left;
+      border: 2px solid rgb(221, 217, 217);
+      padding: 10px;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+     }
+     #input2{
+      height: 15%;
+      width: 45%;
+      margin: 10px;
+      float: right;
+      border: 2px solid rgb(221, 217, 217);
+      padding: 10px;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      margin-right: 25px;
+     }
+     #input3{
+      height: 15%;
+      width: 94%;
+      float: right;
+      border: 2px solid rgb(221, 217, 217);
+      padding: 10px;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      margin-right: 25px;
+     }
+     #input4{
+      height: 35%;
+      width: 94%;
+      float: right;
+      border: 2px solid rgb(221, 217, 217);
+      padding: 10px;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      margin-right: 25px;
+      margin-top: 10px;
+     }
+     #input5{
+       font-size: 20px;
+       padding: 10px;
+       margin-top: 10px;
+       margin-left: 220px;
+       border-radius: 30px;
+       background-color: rgb(253, 128, 61);
+       border: 2px solid rgb(247, 136, 67);
+       color: #fff;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;   
+     }
+     #s4{
+      height: 15%;
+      width: 100%;
+      border: 2px solid black;
+      margin: 20px;
+      margin-left:-0px;
+     }
+     
+
+
+    </style>
+</head>
+<body>
+    <section id="one">
+        <div id="o1">Welcome to Music Festival 2025</div>
+        <div id="o2">
+            <div id="o3">Festava Live</div>
+            <div id="p1"><a href="#"><span style="color: orangered;">Home</span></a>
+                <a href="#">About </a>
+                <a href="#">Artists</a>
+                <a href="#">Schedule</a>
+                <a href="#">Pricing</a>
+                <a href="#">Contact</a>
+                <button id="btn">Buy Ticket</button>
+            </div>
+            <div class="o4">FESTAVA LIVE PRESENTS</div>
+            <div class="o5">Night Live <span style="color: darkmagenta;">2025</span></div>
+            <button id="btn2">Lets's begin</button>
+            <div class="o6"><div id="pic1"></div>
+        <div id="o7">10-12 <sup>th</sup>, Dec 2025</div></div>
+         <div class="o8"><div id="pic2"></div><div id="o7">Konhara Road, Railway Colony</div></div>
+         <div id="o9">
+            <div id="fb"></div>
+            <div id="twitter"></div>
+            <div id="insta"></div>
+         </div>
+        </div>
+
+    </section>
+    <section id="two">
+        <div id="t1">
+             </div>
+        <div id="t3">About Festava 2025</div> <br> <br>
+        <p id="t4">Lorem ipsum dolor sit, amet consectetur adipisicing elit. <br> Itaque, rerum non amet, <br> magni mollitia quam minima aut ducimus molestiae esse molestias provident, distinctio  <br>facilis quaerat! Eaque libero aspernatur tenetur optio!<br> Repudiandae neque quasi laboriosam sit expedita ab eius labore id.</p>
+        <p id="t5">Once in Lifetime Experience</p>
+        <p id="t4">You are not allowed to redistribute the template ZIP file on any other website  <br>without a permission.</p>
+        <p id="t5">Whole night Party</p>
+        <p id="t4">Pleasw tell your friends about our Website. Thank you.</p>
+        <div id="t6">
+            <div id="t7">
+                <div id="t8"></div>
+                <div id="t9">a happy moment
+                    <p id="t10">Your amazing festival experience with us</p>
+                </div>
+            </div>
+        </div>
+
+        </div>
+
+    </section>
+    <section id="three"><h1>Meet Artists</h1>
+    <div id="m1"></div>
+    <div id="m2"></div>
+    <div id="m3"></div></section>
+    <section id="four">
+      <h1 style="color: #fff;">Event Schedule</h1>
+      <div id="f1">
+         <div id="f2">
+            <div id="f3">Date</div>
+            <div id="f4">Wednesday</div>
+            <div id="f5">Thursday</div>
+            <div id="f6">Friday</div>
+         </div>
+         <div id="f7">
+            <div id="f8">Day 1</div>
+            <div id="f8">Day 2</div>
+            <div id="f8">Day 3</div>
+         </div>
+         <div id="f9"> <p id="para1">Pop Night</p>
+                        <p id="para2">5:00 - 7:00 PM</p>
+                        <p id="para3">By Adele</p>
+         </div>
+         <div id="f10"></div>
+         <div id="f11"><p id="para1">Rock & Roll</p>
+                         <p id="para2">7:00 - 11:00 PM</p>
+                        <p id="para3">By Priya</p>
+         </div>
+         <div id="f12"></div>
+         <div id="f13"><p id="para1">Dj Night</p>
+                         <p id="para2">6:30 - 9:30 PM</p>
+                        <p id="para3">By Priya</p>
+         </div>
+         <div id="f14"></div>
+         <div id="f15"><p id="para1">Country Music</p>
+                        <p id="para2">4:30 - 7:30 PM</p>
+                        <p id="para3">By Priya</p>
+         </div>
+         <div id="f16"></div>
+         <div id="f17">
+            <p id="para1">Free Styles</p>
+             <p id="para2">6:00 - 10:00 PM</p>
+             <p id="para3">By Members</p>
+         </div>
+      </div>
+    </section>
+    <section id="five">
+      <h1 style="margin-top: 70px; font-weight: 900;">Plans, you' love</h1>
+      <div id="fi1">
+         <div id="d1">
+            <p id="d2">Save up to</p>
+             <p id="d3">50%</p>
+         </div>
+         <p id="d4">Early Bird</p>
+         <p id="d5">$120</p>
+         <p id="d6">Including good things:</p>
+         <ul>
+            <li id="li1"> <span style="color: grey;">Platform for potential <br> customers </span></li>
+            <li id="li2"> <span style="color: grey;">high-quality sound</span></li>
+            <li id="li1"> <span style="color: grey;">digital experience </li>
+               <li id="li2"> <span style="color: grey;">standard content</span></li>
+         </ul>
+        <p id="a16">
+         <a href="" style="color: yellow; text-decoration-color: yellow;">Buy Ticket &RightArrow;</a>
+        </p>
+      </div>
+      <div id="fi2">
+          <p id="d4">Standard</p>
+         <p id="d5">$240</p>
+         <p id="d6">What makes a premium festava?</p>
+         <ul>
+            <li id="li1"> <span style="color: grey;">Platform for potential <br> customers </span></li>
+            <li id="li2"> <span style="color: grey;">high-quality sound</span></li>
+            <li id="li1"> <span style="color: grey;">digital experience </li>
+               <li id="li2"> <span style="color: grey;">premium content</span></li>
+               <li id="li3"> <span style="color: grey;">live chat support</span></li>
+         </ul>
+        <p id="a15">
+         <a href="" style="color: yellow; text-decoration-color: yellow;">Buy Ticket &RightArrow;</a>
+        </p>
+      </div>
+    </section>
+    <section id="six">
+      <h1>Interested? Let's talk</h1>
+      <div id="s1"><button id="s2">Contact Form</button>
+      <p id="s3">Google maps</p>
+      </div>
+      <form id="form1">
+         <div id="input1">Full Name</div>
+         <div id="input2">Email address</div>
+         <div id="input3">Email address</div>
+         <div id="input4">Message</div>
+         <button id="input5">Send message</button>
+      </form>
+      <div id="s4"></div>
+
+    </section>
+</body>
+</html>
